@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5FB03E1D193D0A00B11D14 /* Alertlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C5FB03D1D193D0A00B11D14 /* Alertlib.h */; };
+		9C5FB0401D193D0A00B11D14 /* Alertlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FB03F1D193D0A00B11D14 /* Alertlib.m */; };
+		9C5FB0471D193D8900B11D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5FB0461D193D8900B11D14 /* UIKit.framework */; };
+		9C5FB04A1D193DF600B11D14 /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FB0491D193DF600B11D14 /* UIViewController+AlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C5FB0381D193D0A00B11D14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9C5FB03E1D193D0A00B11D14 /* Alertlib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C5FB03A1D193D0A00B11D14 /* libAlertlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlertlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5FB03D1D193D0A00B11D14 /* Alertlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alertlib.h; sourceTree = "<group>"; };
+		9C5FB03F1D193D0A00B11D14 /* Alertlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alertlib.m; sourceTree = "<group>"; };
+		9C5FB0461D193D8900B11D14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C5FB0481D193DF600B11D14 /* UIViewController+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertView.h"; sourceTree = "<group>"; };
+		9C5FB0491D193DF600B11D14 /* UIViewController+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5FB0371D193D0A00B11D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5FB0471D193D8900B11D14 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5FB0311D193D0A00B11D14 = {
+			isa = PBXGroup;
+			children = (
+				9C5FB0461D193D8900B11D14 /* UIKit.framework */,
+				9C5FB03C1D193D0A00B11D14 /* Alertlib */,
+				9C5FB03B1D193D0A00B11D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5FB03B1D193D0A00B11D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5FB03A1D193D0A00B11D14 /* libAlertlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5FB03C1D193D0A00B11D14 /* Alertlib */ = {
+			isa = PBXGroup;
+			children = (
+				9C5FB03D1D193D0A00B11D14 /* Alertlib.h */,
+				9C5FB03F1D193D0A00B11D14 /* Alertlib.m */,
+				9C5FB0481D193DF600B11D14 /* UIViewController+AlertView.h */,
+				9C5FB0491D193DF600B11D14 /* UIViewController+AlertView.m */,
+			);
+			path = Alertlib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5FB0391D193D0A00B11D14 /* Alertlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5FB0431D193D0A00B11D14 /* Build configuration list for PBXNativeTarget "Alertlib" */;
+			buildPhases = (
+				9C5FB0361D193D0A00B11D14 /* Sources */,
+				9C5FB0371D193D0A00B11D14 /* Frameworks */,
+				9C5FB0381D193D0A00B11D14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alertlib;
+			productName = Alertlib;
+			productReference = 9C5FB03A1D193D0A00B11D14 /* libAlertlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5FB0321D193D0A00B11D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Divum;
+				TargetAttributes = {
+					9C5FB0391D193D0A00B11D14 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9C5FB0351D193D0A00B11D14 /* Build configuration list for PBXProject "Alertlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C5FB0311D193D0A00B11D14;
+			productRefGroup = 9C5FB03B1D193D0A00B11D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5FB0391D193D0A00B11D14 /* Alertlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5FB0361D193D0A00B11D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5FB04A1D193DF600B11D14 /* UIViewController+AlertView.m in Sources */,
+				9C5FB0401D193D0A00B11D14 /* Alertlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C5FB0411D193D0A00B11D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C5FB0421D193D0A00B11D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C5FB0441D193D0A00B11D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C5FB0451D193D0A00B11D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5FB0351D193D0A00B11D14 /* Build configuration list for PBXProject "Alertlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5FB0411D193D0A00B11D14 /* Debug */,
+				9C5FB0421D193D0A00B11D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5FB0431D193D0A00B11D14 /* Build configuration list for PBXNativeTarget "Alertlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5FB0441D193D0A00B11D14 /* Debug */,
+				9C5FB0451D193D0A00B11D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5FB0321D193D0A00B11D14 /* Project object */;
+}
