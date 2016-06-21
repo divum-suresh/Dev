@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "https://www.dropbox.com/sh/hgdsu5t8tt6j0u5/AACM9C3RfQ4LQDoPNvFTGjcKa?dl=0"
+  s.homepage     = "https://github.com/divum-suresh/Dev"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
